@@ -1,0 +1,76 @@
+
+ Collection - 객체를 저장하는 클래스(객체)
+ 
+ 자료구조 (data structure)
+  ㄴ data를 효과적으로 사용할 수 있도록
+     구조를 만들어서 보관하는 것
+     
+자료구조의 종류
+
+ 1) List    ArrayList((Vector)), LinkedList((Stack)), LinkedList(Queue)
+              ㄴ Array(배열)
+            index - data 구분 : 순서가 있음
+            data 의 중복 (O)
+            
+ 2) HashMap   Key-Value
+((HashTable)) index (X) : 순서가 없음 : key 중복 (X)
+                                      value 중복 (O)
+ 
+ 3) HashSet data(value)
+            index (X) : 순서가 없음 : key 중복 (X)
+ 
+ 
+ 
+   ArrayList
+              ㄴ Array(배열)
+            index - data 구분 : 순서가 있음
+            data 의 중복 (O)
+ 
+   
+   // String     Integer    Boolean
+   ArrayList<String>  list1 = new ArrayList<String>();
+   ArrayList<Integer> list2 = new ArrayList<Integer>();
+   ArrayList<Boolean> list3 = new ArrayList<Boolean>();
+   
+   
+   Generic : 클래스에서 사용하는 data의 type 을
+             클래스를 작성하는 시점이 아닌
+             클래스의 객체를 생성하는 시점에 
+             정하는 문법
+ 
+   class Data<T>{
+     T a;
+     public void printMethod(T a){
+       System.out.println("a : " + a);
+     }
+   }
+   
+   Data<String> d1 = new Data<String>();
+   d1.printMethod("hello");
+   
+   Data<Integer> d2 = new Data<Integer>();
+   d2.printMethod(111);
+   
+   
+   
+   
+   
+   
+   
+   LinkedList list = new LinkedList();
+   
+   
+   
+   
+   
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
